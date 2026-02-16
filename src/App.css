@@ -1,0 +1,23 @@
+.container { max-width: 600px; margin: 20px auto; padding: 25px; font-family: sans-serif; background: white; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); text-align: center; }
+.top-stats { display: flex; justify-content: space-around; margin-bottom: 20px; }
+.stat-box { padding: 8px 15px; border-radius: 10px; font-weight: bold; border: 2px solid #eee; }
+.streak { color: #ff4d4d; border-color: #ff4d4d; }
+.countdown { color: #2b6cb0; border-color: #2b6cb0; }
+.calendar-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+.calendar-header button { background: #4CAF50; color: white; border: none; padding: 5px 15px; border-radius: 5px; cursor: pointer; }
+.calendar-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; }
+.day-box { height: 45px; border-radius: 6px; border: 1px solid #edf2f7; display: flex; align-items: center; justify-content: center; cursor: pointer; font-weight: bold; background: #ebedf0; transition: 0.2s; }
+.level-1 { background: #9be9a8 !important; }
+.level-2 { background: #40c463 !important; color: white; }
+.level-3 { background: #30a14e !important; color: white; }
+.level-4 { background: #216e39 !important; color: white; }
+.filter-bar { display: flex; gap: 8px; justify-content: center; margin: 20px 0; }
+.filter-bar button { padding: 5px 12px; border: none; border-radius: 5px; cursor: pointer; background: #e2e8f0; }
+.filter-bar button.active { background: #4CAF50; color: white; }
+.history-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+.data-controls { display: flex; gap: 5px; }
+.action-btn { background: #2d3748; color: white; padding: 6px 12px; border-radius: 6px; font-size: 0.75rem; cursor: pointer; font-weight: bold; border: none; }
+.action-btn:hover { background: #4a5568; }
+.history-item { background: #f7fafc; padding: 15px; border-radius: 10px; margin-bottom: 10px; text-align: left; border-left: 5px solid #4CAF50; }
+.log-date { display: block; font-size: 0.8rem; color: #718096; margin-bottom: 5px; font-weight: bold; }
+.log-summary { margin-top: 10px; padding: 10px; background: white; border: 1px dashed #cbd5e0; border-radius: 5px; font-size: 0.9rem; color: #4a5568; }
