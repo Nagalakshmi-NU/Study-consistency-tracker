@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nagalakshmi-nu.github.io/Study-consistency-tracker",
+  "homepage": "https://Nagalakshmi-nu.github.io/Study-consistency-tracker",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
